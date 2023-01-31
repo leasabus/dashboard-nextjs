@@ -17,7 +17,7 @@ export const TopCards = () => {
                     <span className='text-slate-600 font-semibold'>YTD revenue</span>
                 </div>
 
-                <span className='bg-green-200 text-green-700 rounded-lg flex items-center p-1'>+18%</span>
+                <span className='bg-green-200 text-green-700 rounded-lg flex items-center p-1'>+5%</span>
             </div>
             <div className='flex flex-row gap-4 justify-between w-full p-2 '>
                 <div className='flex flex-col'>
@@ -25,7 +25,7 @@ export const TopCards = () => {
                     <span className='text-slate-600 font-semibold'>Customers</span>
                 </div>
 
-                <span className='bg-green-200 text-green-700 rounded-lg flex items-center p-1'>+18%</span>
+                <span className='bg-green-200 text-green-700 rounded-lg flex items-center p-1'>+8%</span>
             </div>
 
         </div>

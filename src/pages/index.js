@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Header } from '@/components/Home';
 import { TopCards } from '@/components/TopCards';
+import { BarChart } from '@/components/BarChart';
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
       <main className=''>
         <Header />
         <TopCards />
+        <BarChart />
       </main>
     </>
   )
