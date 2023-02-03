@@ -2,10 +2,11 @@
 import { data } from '@/data/data';
 import React from 'react'
 import { BsBriefcaseFill } from 'react-icons/bs'
+import 'animate.css';
 
 export const orders = () => {
     return (
-        <div>
+        <div className='animate__animated animate__fadeInUp'>
             <h1 className='p-4 font-bold text-2xl'>Last orders</h1>
             <div className='hidden md:grid grid-cols-4  font-bold items-center justify-center p-6 mt-4 text-purple-600'>
                 <p>Customer</p>

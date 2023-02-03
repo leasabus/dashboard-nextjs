@@ -5,7 +5,7 @@ import { MdAccountCircle } from 'react-icons/md';
 
 export const customers = () => {
     return (
-        <div>
+        <div className='animate__animated animate__fadeInUp'>
             <h1 className='p-4 font-bold text-2xl'>Last customers</h1>
             <div className='hidden md:grid grid-cols-4  font-bold items-center justify-center p-6 mt-4 text-purple-600'>
                 <p>Customer</p>
