@@ -9,6 +9,7 @@ export const data = [
         status: 'On Hold',
         method: 'PayPal',
         date: '15 Minutes ago',
+        product: 'IMac 24"'
     },
     {
         id: 2,
@@ -20,6 +21,7 @@ export const data = [
         status: 'Processing',
         method: 'PayPal',
         date: '23 Minutes ago',
+        product: 'Iphone 14 Pro'
     },
     {
         id: 3,
@@ -31,6 +33,7 @@ export const data = [
         status: 'Completed',
         method: 'Visa',
         date: '1 Hour ago',
+        product: 'Mac Mini'
     },
     {
         id: 4,
@@ -42,6 +45,7 @@ export const data = [
         status: 'Processing',
         method: 'MasterCard',
         date: '1 Hour ago',
+        product: 'AirPods'
     },
     {
         id: 5,
@@ -53,6 +57,7 @@ export const data = [
         status: 'On Hold',
         method: 'PayPal',
         date: '2 Hour ago',
+        product: 'HomePod'
     },
     {
         id: 6,
@@ -64,6 +69,7 @@ export const data = [
         status: 'Completed',
         method: 'Check',
         date: '3 Hour ago',
+        product: 'MacBook Pro'
     },
     {
         id: 7,
@@ -75,6 +81,7 @@ export const data = [
         status: 'Completed',
         method: 'MasterCard',
         date: '3 Hour ago',
+        product: 'Smartwatch Samsung Galaxy'
     },
     {
         id: 8,
@@ -86,6 +93,7 @@ export const data = [
         status: 'Completed',
         method: 'Visa',
         date: '7 Hour ago',
+        product: 'Apple Iphone 13 Pro'
     },
     {
         id: 9,
@@ -97,6 +105,7 @@ export const data = [
         status: 'Completed',
         method: 'PayPal',
         date: '1 Day ago',
+        product: 'Headphones'
     },
     {
         id: 10,
@@ -108,5 +117,6 @@ export const data = [
         status: 'Completed',
         method: 'MasterCard',
         date: '1 Day ago',
+        product: 'Headsets '
     },
 ];

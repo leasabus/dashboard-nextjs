@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Header } from '@/components/Home';
 import { TopCards } from '@/components/TopCards';
 import { BarChart } from '@/components/BarChart';
+import { RecentOrders } from '@/components/RecentOrders';
+
 
 
 
@@ -18,7 +20,10 @@ export default function Home() {
       <main className=''>
         <Header />
         <TopCards />
-        <BarChart />
+        <div className='flex flex-col  w-auto'>
+          <BarChart />
+          <RecentOrders />
+        </div>
       </main>
     </>
   )
